@@ -1,7 +1,7 @@
 # Load zoo timeseries library and Quandl financial data library
 library(zoo)
 library(Quandl)
-Quandl.auth("7S8Ch-L2bvjQZNxKHzxE")
+
 
 load_misery <- function() {
   # Download the data for UK monthly unemployment and cpi inflation figures.
